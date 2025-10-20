@@ -81,7 +81,6 @@ import BackgroundImg from "../assets/hero_bg.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-// Particle configuration
 const particles = [
   { id: 1, size: 20, top: "10%", left: "15%", color: "#7e2a0c", duration: 8 },
   { id: 2, size: 15, top: "70%", left: "30%", color: "#854d3d", duration: 10 },
@@ -137,7 +136,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.4 }}
           >
             <Link to="/coffeeproducts">
-              <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-3 px-6 sm:py-4 sm:px-8 text-lg sm:text-xl rounded-full shadow-xl hover:shadow-2xl">
+              <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:rotate-z-6 duration-200 text-white py-3 px-6 sm:py-4 sm:px-8 text-lg sm:text-xl rounded-full shadow-xl hover:shadow-2xl">
                 Explore Products
               </button>
             </Link>
