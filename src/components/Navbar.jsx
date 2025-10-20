@@ -179,10 +179,10 @@ const Navbar = () => {
               </span>
             )}
           </div>
-          <RiAccountPinCircleLine
+       <Link to="/signin">   <RiAccountPinCircleLine
             title="Account"
             className="text-2xl text-gray-300 hover:text-white drop-shadow-sm"
-          />
+          /> </Link>
         </div>
       </motion.div>
 
